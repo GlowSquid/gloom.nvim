@@ -1,1 +1,1 @@
-lua require('gloom').colorscheme()
+lua require('gloom').setup()
