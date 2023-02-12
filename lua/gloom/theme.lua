@@ -17,7 +17,7 @@ M.get_colors = function()
     dark_pink = "#371e27",
     purple = "#9468db",
     dark_purple = "#8f37c7",
-    light_red = "#ee5c55",
+    light_red = "#f85f55",
     red = "#e23c23",
     yellow = "#b5b635",
   }

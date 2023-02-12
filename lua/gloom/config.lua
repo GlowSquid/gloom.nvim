@@ -35,7 +35,7 @@ M.highlights = function (c)
     WarningMsg = { fg = c.red, bg = c.background },
     DiffAdd = { bg = c.background, fg = c.orange },
     DiffChange = { bg = c.background, fg = c.purple },
-    DiffDelete = { bg = c.background, fg = c.light_red },
+    DiffDelete = { bg = c.background, fg = c.red },
     QuickFixLine = { bg = c.yellow },
     MatchParen = { fg = c.orange, bg = c.background },
     Cursor = { fg = c.foreground, bg = c.cursor },
@@ -172,9 +172,9 @@ M.highlights = function (c)
     NvimTreeNormalNC = { fg = c.foreground, bg = c.background_contrast },
     NvimTreeRootFolder = { fg = c.yellow },
     NvimTreeExecFile = {fg = c.yellow },
-    NvimTreeGitDirty = { fg = c.red },
+    NvimTreeGitDirty = { fg = c.light_red },
     NvimTreeGitNew = { fg = c.orange },
-    NvimTreeGitDeleted = { fg = c.light_red },
+    NvimTreeGitDeleted = { fg = c.red },
     NvimTreeSpecialFile = { fg = c.blue },
     NvimTreeIndentMarker = { fg = c.dark_pink},
     NvimTreeImageFile = { fg = c.foreground },
@@ -186,6 +186,19 @@ M.highlights = function (c)
     NvimTreeOpenedFolderName = { fg = c.yellow },
     NvimTreeEmptyFolderName = { fg = c.yellow },
     NvimTreeStatusLineNC = { bg = c.background, fg = c.background },
+
+    -- Telescope
+    TelescopeSelection = { fg = 'NONE', bg = c.cursorline},
+    TelescopeSelectionCaret = { fg = c.pink, bg = c.cursorline},
+    TelescopeBorder = { fg = c.border, bg = 'NONE' },
+    TelescopeNormal = { fg = c.foreground, bg = 'NONE' },
+    TelescopeMatching = { fg = c.orange, bg = 'NONE', italic=true },
+    TelescopePromptTitle = { fg = c.orange, bg = 'NONE', bold=true },
+    TelescopeResultsTitle = { fg = c.orange, bg = 'NONE', bold=true },
+    TelescopePreviewTitle = { fg = c.orange, bg = 'NONE', bold=true },
+    TelescopePromptPrefix = { fg = c.pink, bg = 'NONE' },
+    TelescopePromptCounter = { fg = c.pink, bg = 'NONE'},
+
   }
 end
 
