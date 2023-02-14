@@ -10,7 +10,7 @@ M.setup = function()
   local groups = config.highlights(c)
   for group, params in pairs(groups) do
     hi(0, group, params)
-  end  
+  end
 end
 
 return M
